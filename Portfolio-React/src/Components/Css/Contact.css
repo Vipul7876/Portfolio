@@ -1,0 +1,198 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 50px;
+  background-color: #1a122e;
+  border-radius: 25px;
+}
+
+.contact-left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.contact-left-container h1 {
+  font-size: 60px;
+  background: linear-gradient(to right, #8750f7, white);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.contact-left-container p {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.personal-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.personal-details input {
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  height: 40px;
+  padding: 5px;
+  cursor: text;
+  font-size: 18px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.message select {
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  height: 40px;
+  padding: 5px;
+  padding-right: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.message textarea {
+  height: 200px;
+  padding: 5px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  resize: none;
+}
+
+.message button {
+  font-size: 20px;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background: linear-gradient(to right, #8750f7, #140c1c);
+  width: 200px;
+}
+
+.message button:hover {
+  outline: 1px solid #8750f7;
+}
+
+.contact-right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 142px;
+}
+
+.connect-with-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 35px;
+}
+
+.connect-div {
+  display: flex;
+  gap: 30px;
+}
+
+.connect-div div p {
+  font-size: 20px;
+}
+
+.connect-div div h3 {
+  font-size: 21px;
+}
+
+.contact-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top left, #8750f7, #140c1c);
+  border-radius: 30px;
+  padding: 15px;
+  cursor: pointer;
+  height: 60px;
+  transition: 0.45s ease-in-out;
+}
+
+.contact-img:hover {
+  scale: 1.19;
+}
+
+.contact-img a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-img a img {
+  width: 30px;
+  height: 30px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.thankyou {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.thankyou h1 {
+  font-size: 60px;
+  background: linear-gradient(to right, #8750f7, white);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.thankyou a button {
+  font-size: 20px;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background: linear-gradient(to right, #8750f7, #140c1c);
+  width: 200px;
+}

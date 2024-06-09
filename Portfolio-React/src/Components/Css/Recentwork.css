@@ -1,0 +1,97 @@
+.recentwork {
+  font-family: "Mukta", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recentwork-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.recentwork-container h1 {
+  font-size: 60px;
+  background: linear-gradient(to right, #8750f7, white);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.recentworks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.recentworks-left,
+.recentworks-right {
+  background-color: #1a122e;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.recentworks-left:hover,
+.recentworks-right:hover {
+  scale: 1.05;
+  transition: 0.4s ease-in-out;
+}
+
+.recentworks-left img,
+.recentworks-right img {
+  width: 500px;
+}
+
+.recentworks-left a div,
+.recentworks-right a div {
+  position: absolute;
+  width: 80%;
+  background-color: #8750f7;
+  height: 20%;
+  margin-left: 5%;
+  border-radius: 12px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  bottom: 10%;
+  right: 7%;
+  opacity: 0;
+  transition: 0.7s ease-in-out;
+}
+
+.recentworks-left a div span,
+.recentworks-right a div span {
+  background-color: transparent;
+}
+
+.recentworks-left:hover a div,
+.recentworks-right:hover a div {
+  opacity: 1;
+  bottom: 15%;
+}
+
+.titles-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+}
+
+.titles{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titles h2{
+  font-size: 24px;
+  color: #8750f7;
+}
